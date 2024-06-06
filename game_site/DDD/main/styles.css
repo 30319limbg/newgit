@@ -57,11 +57,10 @@ body {
     line-height: 86px;
     width: calc(1280px - 300px);
 }
-.nav > li{
-    margin-left: 84px;
-}
-.nav > li > a{
+
+.nav > a{
     color: #000;
+    margin-left: 84px;
 }
 /* hero: 히어로 섹션의 배경 색, 텍스트 색, 패딩을 설정합니다 */
 .hero {

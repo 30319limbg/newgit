@@ -1,0 +1,130 @@
+/* body: 폰트, 여백, 패딩, 배경 색을 설정합니다. */
+*{
+    font-family: "Noto Sans KR", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+
+} 
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+.intro_bg{
+    background-image: url("image\5148675.jpg");
+    width:100%;
+    height:1530px;;
+}
+
+.header{
+    display: flex;
+    width: 1280px;
+    margin: auto;
+    height: 86px;
+}
+.searchArea{
+    width: 300px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin-top: 24px;
+}
+.searchArea > form > input{
+    border: none;
+    width: 250px;
+    height: 40px;
+    color: #fff;
+    padding-left: 10px;
+    background: rgba(0, 0, 0, 0.0);
+}
+.searchArea > form > span{
+    width: 50px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    line-height: 86px;
+    width: calc(1280px - 300px);
+}
+
+.nav > a{
+    color: #000;
+    margin-left: 84px;
+}
+/* hero: 히어로 섹션의 배경 색, 텍스트 색, 패딩을 설정합니다 */
+.hero {
+    background-color: #fff;
+    background-size: cover; /* 이미지를 커버하는 크기로 설정합니다 */
+    background-position: center; /* 이미지를 가운데 정렬합니다 */
+    height: 240px; /* 이미지의 높이를 지정합니다 */
+    padding: 50px 300px 20px;
+    
+}
+
+/* container: 메인 컨테이너의 패딩을 설정합니다 */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* section: 섹션의 하단 여백을 설정합니다 */
+.section {
+    margin-bottom: 40px;
+}
+
+/* section h2: 섹션 제목의 스타일을 설정합니다 */
+.section h2 {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #000;
+    padding-bottom: 10px;
+}
+
+/* content: 콘텐츠 섹션을 플렉스로 설정합니다 */
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* card: 카드 요소의 배경, 테두리, 패딩, 텍스트 정렬을 설정합니다 */
+.card {
+    background-color: #fff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+/* card img: 카드 안의 이미지 스타일을 설정합니다 */
+.card img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+/* footer: 푸터의 배경 색, 텍스트 색, 패딩, 위치를 설정합니다. */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+
