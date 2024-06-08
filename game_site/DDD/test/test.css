@@ -1,0 +1,11 @@
+
+section{
+    width: 85%;
+    max-width: 1250px;
+    display: grid;
+    place-items: center;
+    height: 100vh;
+}
+img{
+    width: 100%;
+}
